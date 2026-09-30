@@ -1,0 +1,20 @@
+小目标1
+account_name=input("请输入账号名")
+nickname=input("请输入昵称")
+password=input("请输入密码")
+login_days=input("请输入登录天数")
+is_new_user=input("是否为新用户")
+小目标2
+login_counts=[1,2,3,4,5,6,7] #需要放几个具体的数吗
+print("第一天登录次数为",login_counts[0])
+print("第七天登录次数为",login_counts[6])
+print("一共记录了",len(login_counts),"天")
+小目标3
+login_counts[2]=8
+print("修改后第三天登录次数为",login_counts[2])
+小目标4
+print(”账号信息卡“)
+print("账号名：",account_name)
+print("昵称：",nickname)
+print("登录天数：",login_days)
+print("是否为新用户：",is_new_user)
